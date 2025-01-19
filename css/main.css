@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: url(../font/20951.ttf);
+    src: url(../font/font.ttf);
+}
+
+body {
+    background-color: #efefef;
+    font-family: Roboto;
+}
+
+main {
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(180, 140, 140);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px , rgba(0,0,0,0.3);
+}
+
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 10px;
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+
+.photo:hover{
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+
+.photo1{
+    background-image: url(../img/img1.jpg);
+}
+.photo2{
+    background-image: url(../img/img2.jpg);
+}
+.photo4{
+    background-image: url(../img/img4.jpg);
+}
+.photo5{
+    background-image: url(../img/img5.jpg);
+}
+html, body, main {
+    height: 100%;
+    font-family: RobotoR;
+}
+
+.first {
+    height: 100%;
+    background-image: url(..//img/img1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.first p {
+    color: white;
+}
+
+
+.text-container {
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.first-line {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 1px;
+    line-height: 1;
+}
+
+.second-line {
+    text-transform: uppercase;
+    font-size: 64px;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.third-line {
+    font-size: 20px;
+
+}
+
+.second {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.last-container{
+    display: flex;
+    justify-content: center;
+    -ms-align-intems: center;
+    align-intems:center;
+    fiex-direction: colum;
+    height: 300px;
+    padding: 0 25%;
+    backgroud-image: url(/img/.img2.jp.)
+    backgroud-position: center;
+    -webkit-backgroud-size: cover;
+    backgroud-size: cover;
+}
+.last-header{
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+.last-tex {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    line-height: 1px;
+}
